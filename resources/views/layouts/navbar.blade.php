@@ -36,7 +36,7 @@
                 <a href="{{ route('home') }}" class="nav-item nav-link @stack('home')">Home</a>
                 <a href="{{ route('services') }}" class="nav-item nav-link @stack('services')">Services</a>
                 <a href="{{ route('aboutus') }}" class="nav-item nav-link @stack('aboutus')">About</a>
-                 <a href="{{ route('contactus') }}" class="nav-item nav-link @stack('contactus')">Contact</a>
+                 {{-- <a href="{{ route('contactus') }}" class="nav-item nav-link @stack('contactus')">Contact</a> --}}
                 <div class="nav-item dropdown z-10">
                     <a id="MoreDropdown"  class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>More</a>
                     <div class="dropdown-menu border-light m-0" aria-labelledby="MoreDropdown">
